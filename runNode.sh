@@ -9,7 +9,7 @@ fi
 sudo docker pull nogueiradalmeida/rbbnode:v0.01
 echo NODE $1
 cd node$1
-if [ $2 = "clear" ]; then
+if [ $2 == "clear" ]; then
     echo 'Cleaning... '
     cd data
     sudo rm -rf besu.networks
