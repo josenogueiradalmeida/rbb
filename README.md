@@ -10,7 +10,7 @@
 
 * **Sistema Operacional**: Ubuntu 16.04, Ubuntu 18.04, Centos7, sempre 64 bits
 
-* **Ferramenta**: Docker
+* **Ferramentas**: Docker e acesso ao comando `sudo`
 
 É necessário habilitar as portas de rede onde for instalado o nó:
 
