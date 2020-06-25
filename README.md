@@ -26,6 +26,8 @@
 
 ## Executando um nó Validador (Validator Node)
 
+Atenção: é necessário estar previamente configurado com sua chave no genesis file (ou adicionado posteriormente).
+
 >`chmod +x runNode.sh`
 
 >`./runNode.sh validator`
