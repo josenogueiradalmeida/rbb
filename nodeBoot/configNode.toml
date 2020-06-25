@@ -1,0 +1,13 @@
+data-path="data" 
+ 
+host-whitelist=["*"] 
+
+p2p-port=60606
+max-peers=42
+
+rpc-http-port=4545
+rpc-http-cors-origins=["all"]
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET"] 
+
+genesis-file="genesis.json"

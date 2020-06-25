@@ -1,0 +1,15 @@
+data-path="data" 
+ 
+host-whitelist=["*"] 
+
+p2p-port=60606
+max-peers=42
+
+rpc-http-port=4545
+rpc-http-cors-origins=["all"]
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET"] 
+
+genesis-file="genesis.json"
+
+#bootnodes=["enode://9049da83a9512dda6c96bd65b6322ab3f732ab5c1360b55f4b975ee9cce685b21aeb97a0f21d6b22ece950b9264366389744abbf1025f8cbb75385a3b1e81763@127.0.0.1:30307"]

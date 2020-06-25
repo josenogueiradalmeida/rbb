@@ -1,0 +1,32 @@
+{
+  "config" : {
+    "chainId" : 202007,
+    "constantinoplefixblock" : 0,
+    "ibft2" : {
+      "blockperiodseconds" : 2,
+      "epochlength" : 30000,
+      "requesttimeoutseconds" : 10
+    }
+  },
+  "nonce" : "0x0",
+  "timestamp" : "0x58ee40ba",
+  "gasLimit" : "0x47b760",
+  "difficulty" : "0x1",
+  "mixHash" : "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+  "coinbase" : "0x0000000000000000000000000000000000000000",
+  "alloc" : {
+    "31b4534ba9995e4341fc08ae47d05a5b5978b154" : {
+      "comment" : "Conta Cofre #1",
+      "balance" : "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+    },
+    "52aaaaa73e80d1a11411c39e6a4d8c9186d4aca8" : {
+      "comment" : "Conta Cofre #2",
+      "balance" : "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+    },
+    "c8f70d013f4ecc38e8dbc574eff05824da3a497c" : {
+      "comment" : "Conta Cofre #3",
+      "balance" : "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+    }
+  },
+  "extraData" : "0xf83ea00000000000000000000000000000000000000000000000000000000000000000d5947dd97b00539fb437abfbe275320a7105126b0ba9808400000000c0"
+}

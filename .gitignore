@@ -1,0 +1,8 @@
+node*/data/database/*
+node*/data/besu.networks
+node*/data/DATABASE_METADATA.json
+node*/data/caches/*
+node*/data/besu.ports
+node*/librock*
+node*/pid*
+node*/snappy*
