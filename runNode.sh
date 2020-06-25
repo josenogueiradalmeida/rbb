@@ -20,4 +20,4 @@ if [ $2 = "clear" ]; then
     sudo rm -rf uploads
     cd ..
 fi
-sudo docker run --network=host -v $PWD/node$1/:/conf/local -v $PWD/node$1/data:/conf/data rbb_bootnode:latest
+sudo docker run --network=host -v $PWD/:/conf/local -v $PWD/data:/conf/data rbb_bootnode:latest
