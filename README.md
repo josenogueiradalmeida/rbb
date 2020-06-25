@@ -28,11 +28,15 @@
 
 Atenção: é necessário estar previamente configurado com sua chave no genesis file (ou adicionado posteriormente).
 
+>`cd rbb`
+
 >`chmod +x runNode.sh`
 
 >`./runNode.sh validator`
 
 ## Executando um nó Inicializador (Boot Node)
+
+>`cd rbb`
 
 >`chmod +x runNode.sh`
 
@@ -41,31 +45,17 @@ Atenção: é necessário estar previamente configurado com sua chave no genesis
 
 ## Executando um nó Regular (Writer/Observer Node)
 
+>`cd rbb`
+
 >`chmod +x runNode.sh`
 
 >`./runNode.sh regular`
 
+Para execuções posteriores, basta executar o comando runNode <papel> como no exemplo abaixo:
 
-[Blockchain](https://www.github.com "DLT").
+>`./runNode.sh regular`
 
-Exemplo de código:
+Caso deseje apagar os dados gerados e começar uma nova blockchain, executar:
 
-```js
-    // We will be using Solidity version 0.5.12 
-    pragma solidity 0.5.12;
-
-    contract MyContract {
-        string private message = "My First Smart Contract";
-
-        function getMessage() public view returns(string memory) {
-            return message;
-        }
-
-        function setMessage(string memory newMessage) public {
-            message = newMessage;
-        }
-    }
-```
-
-***Nota: Sem comentários.***
+>`./runNode.sh regular clear`
 
