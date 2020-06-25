@@ -9,8 +9,8 @@ fi
 sudo docker pull nogueiradalmeida/rbbnode:v0.01
 echo NODE $1
 cd node$1
-if [ $2 == "clear" ]; then
-    echo 'Cleaning... '
+if [ "$2" = "clear" ]; then
+    echo 'Apagando dados antigos... '
     cd data
     sudo rm -rf besu.networks
     sudo rm -rf besu.ports
